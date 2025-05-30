@@ -1,0 +1,14 @@
+{
+    "prompt": "realistic, best quality, masterpiece, mature female, solo, expressionless, upper body, silver hair, bright pupils, long hair, hair slicked back, white dress, flower, white flower, sky,cloud, outdoors",
+    "neg_prompt": "low quality, worst quality, easynegative, earrings, nsfw",
+    "seed": 2430217790,
+    "width": 512,
+    "height": 768,
+    "num_inference_steps": 30,
+    "guidance_scale": 7,
+    "sampler": {
+        "class_name": "DPMSolverMultistepScheduler",
+        "use_karras_sigmas": true,
+        "algorithm_type": "sde-dpmsolver++"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "prompt": "(dystopian cityscape),cyberpunk, mysterious figure, shrouded in shadows, air of annoyance. dusky fade, enigmatic, (gaze out of the window with intense focus),(cinematic atmosphere), captivating moment, trending on artstation, very detailed, masterpiece",
+    "neg_prompt": "negativeXL_D, cgi, 3d render, bad quality, worst quality, text, signature, watermark, extra limbs,",
+    "seed": 68472699,
+    "width": 680,
+    "height": 1024,
+    "num_inference_steps": 25,
+    "guidance_scale": 7,
+    "sampler": {
+        "class_name": "DPMSolverMultistepScheduler",
+        "use_karras_sigmas": true,
+        "algorithm_type": "sde-dpmsolver++"
+    }
+}

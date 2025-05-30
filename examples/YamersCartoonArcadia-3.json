@@ -1,0 +1,14 @@
+{
+    "prompt": "Disney style, A beautiful young woman, depressed, sad, crying, lying collapsed on the ground against a wall in a dark mysterious alleyway at night, soft outlines, perfect eyes, dark pupils, magnificent, celestial, ethereal, painterly, epic, majestic, magical, fantasy art, dreamy, unique pose, dynamic pose, cartoon style, studio ghibli style",
+    "neg_prompt": "bad quality, bad anatomy, worst quality, low quality, low resolution, extra fingers, blur, blurry, ugly, wrong proportions, watermark, image artifacts, lowres, ugly, jpeg artifacts, deformed, noisy image, deformation, skin moles",
+    "seed": 2550816672,
+    "width": 512,
+    "height": 768,
+    "num_inference_steps": 30,
+    "guidance_scale": 7,
+    "sampler": {
+        "class_name": "DPMSolverMultistepScheduler",
+        "use_karras_sigmas": true,
+        "algorithm_type": "sde-dpmsolver++"
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "prompt": "(red and black mecha), gundam, masterpiece,best quality,ultra-detailed, anime screencap,extremely detailed,intricate details,highres,cowboy shot, samurai armor, simple background, shiny metalic reflections",
+    "neg_prompt": "low quality, worst quality, blurry",
+    "seed": 140963649,
+    "width": 680,
+    "height": 1024,
+    "num_inference_steps": 25,
+    "guidance_scale": 7,
+    "sampler": {
+        "class_name": "DPMSolverMultistepScheduler",
+        "use_karras_sigmas": true,
+        "algorithm_type": "sde-dpmsolver++"
+    }
+}
